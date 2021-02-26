@@ -80,7 +80,28 @@ select {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
+  color: none !important;
+}
+.text-center p {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    color: red;
+  }
+  25% {
+    color: cyan;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: green;
+  }
 }
 
 iframe {
