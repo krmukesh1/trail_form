@@ -87,6 +87,9 @@ a {
   animation-name: example;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 @keyframes example {
